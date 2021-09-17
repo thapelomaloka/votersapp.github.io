@@ -987,7 +987,7 @@ section {
   -----------------------------------------*/
 
   #preLoad{
-    background: rgb(0, 0, 0) url(/assets/img/Loader.gif) no-repeat center center ;
+    background: #000000 url(/assets/img/FinalLoader.gif) no-repeat center center ;
     height: 100vh;
     width: 100%;
     position: fixed;
