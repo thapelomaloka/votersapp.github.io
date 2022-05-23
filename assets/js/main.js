@@ -6,14 +6,14 @@
   const app = document.getElementById('app')
   let typewriter = new Typewriter(app, {
     strings :[
-      "I am a Final Year Student in BCom Information Systems",
+      "I am a BCom Information Systems Graduate",
       "I am a Frontend Developer",
       "I am UI/UX Designer"
     ],
     autoStart : true,
     loop : true,
-    delay : 75,
-    pauseFor: 30,
+    delay : 90,
+    pauseFor: 1500,
   })  
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
