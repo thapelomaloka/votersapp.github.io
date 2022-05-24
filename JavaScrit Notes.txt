@@ -1,0 +1,40 @@
+
+This snippet is to change whats on the html element text.
+
+document.getElementById("mybutton").innerHTML = "Hi";
+
+------------------------------------------------------------
+
+This snippet is the Button on Click event.
+
+document.getElementById("mybutton").onclick = function(){
+
+    username = document.getElementById("textbox").value
+    console.log(username);
+
+}
+
+
+------------------------------------------------------------
+
+
+IF(AGE && NAME == ""){
+    PRINT(PLEASE ENTER NAME AND AGE )
+}
+IF-ELSE( AGE == ""){
+    PRINT("PLEASE ENTER AGE")
+}
+IF-ELSE(NAME == "" ){
+    PRINT("PLEASE ENTER NAME")
+}
+ELSE{
+    IF(AGE < 18){
+        PRINT("WELCOM....")
+    }
+    ELSE{
+        PRINT("WELCOME....")
+    }
+    
+}
+
+
