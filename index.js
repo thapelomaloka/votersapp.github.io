@@ -16,6 +16,10 @@ age = year - Number
 
 
 */
+var loader = document.getElementById("preLoad");
+window.addEventListener("load",  function(){
+    loader.style.display = "none";
+})
 
 document.getElementById("mybutton").onclick = function(){
 
