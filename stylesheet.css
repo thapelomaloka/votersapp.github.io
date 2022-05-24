@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+
+.top{
+    height: 75px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.top-heading{
+    line-height: 75px;  /* Vertically aling text in a div */ 
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 174, 255);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.box{
+    background-color:  rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+}
+
+label{
+    color: black;
+    font-size: 20px;
+    
+}
+
+
+#DisplayOnScreen{
+    
+    margin: auto;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    max-width: 50%;
+
+}
+
+
+#textbox, #idnumber{
+    display: block;
+    margin-bottom: 20px;
+    border-style: none;
+    border-width: 1px;
+    padding-bottom: 10px;
+    width: 60%;
+    height:45px;
+    background-color:rgb(221, 220, 220) ;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+#mybutton{
+
+    width: 20%;
+    margin-top: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: rgb(0, 174, 255) ;
+    border-style: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+
+}
+
+#mybutton:hover{
+    background-color: rgba(255, 255, 255, 0.658);
+    border: rgba(0, 174, 255, 0.658) solid 2px;
+    border-radius: 10px;
+    color: rgba(0, 174, 255, 0.658);
+    font-size: 15px;
+}
+
+
+#mybutton:active{
+    background-color: rgba(255, 255, 255, 0.658);
+    border: rgb(0, 81, 255) solid 2px;
+    border-radius: 10px;
+    color: rgba(0, 81, 255);
+    font-size: 15px;
+}
