@@ -2,6 +2,12 @@
 //let username = window.prompt("Whats Your Name?")
 //console.log("Wlecome back " + username)
 
+var loader = document.getElementById("preloader");
+window.addEventListener("load",  function(){
+    loader.style.display = "none";
+})
+
+
 document.getElementById("signin").onclick = function(){
 
     let username1 = document.getElementById("usernameinp").value;

@@ -8,6 +8,19 @@
     
 
 }
+
+#preloader{
+    
+    background : #144964 url(/loader/infinityloading.gif) no-repeat center center;
+    background-size: 25%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    
+}
+
  body{
     height: 100vh;
     margin: 0;
