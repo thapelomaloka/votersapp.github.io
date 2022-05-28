@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+    
+
+}
+
+#preloader{
+    
+    background : #144964 url(/loader/infinityloading.gif) no-repeat center center;
+    background-size: 25%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    
+}
+
+ body{
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #0028b5, #0032b5, #003bb4, #0043b2, #004ab0, #004ead, #0052a9, #0055a5, #0056a0, #00569a, #005794, #00578e);
+ }
+
+.userLoginImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+.box{
+    display: flex;
+    height: 500px;
+    margin-top: 1%;
+    margin: 10% 10%;
+   
+
+}
+
+p{
+    color: white;
+    font-size: 17px;
+
+}
+.notAmember{
+    font-size: 14px;
+    color: rgb(156, 156, 156);
+    display: inline-block;
+    
+}
+.centerThem{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/*-------------------------------------------------------------------------
+
+                -----------Input Styles-----------
+
+---------------------------------------------------------------------------*/
+
+input{
+    height: 8%;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 2%;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white ;
+    padding-top: 6.5%;
+    padding-bottom: 6.5%;
+    font-size: 20px;
+    
+    
+}
+
+
+/*-------------------------------------------------------------------------
+
+-----------Button Styles-----------
+
+---------------------------------------------------------------------------*/
+
+button{
+    margin-top: 20%;
+}
+
+#signin{
+    width: 100%;
+    height: 9.5%;
+    border-style: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+
+#signin:hover{
+    cursor: pointer;
+}
+
+#creatAcc{
+    margin-top: 0;
+    margin-left: 5%;
+    padding:1.5% 1.5% 1.5% 1.5%;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 4px;
+    color: rgb(197, 197, 197);
+}
+
+#creatAcc:hover{
+    cursor: pointer;
+}
+
+
+.box-elements{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.box , .box-elements p {
+    margin-bottom: 10%;
+
+}
+
+.passcodelbl{
+    margin-top: 12%;
+}
+
+#passcodeInp{
+    margin-bottom: 1%;
+}
+
