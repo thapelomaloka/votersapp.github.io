@@ -8,6 +8,26 @@ window.addEventListener("load",  function(){
 })
 
 
+document.getElementById("creatAcc").onclick = function(){
+    window.location.replace("/createAcc.html")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Dashboard Page */
+
+
 document.getElementById("signin").onclick = function(){
 
     let username1 = document.getElementById("usernameinp").value;

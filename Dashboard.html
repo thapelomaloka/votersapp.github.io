@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/stylesheet.css">
+    
     <title>Document</title>
 </head>
 <body>
+    <div id="preloader">
+
+    </div>
 
     <section class="top">
-        <p class="top-heading">
-
+        <h1 >
+            
             Voters App
-
-        </p>
+        </h1>
+        <div id="signout">
+            <img id="signOut" src="https://img.icons8.com/ios-glyphs/30/ffffff/shutdown--v1.png"/>
+        </div>
     </section>
-
-
     <div class="box">
 
-    
-        <label >Enter your name</label><br>
-        <input type="text" id="textbox" placeholder="Enter your name">
+        <label for="">Enter Name</label>
+        <input id="name" type="text" placeholder="Enter your name">
         
-        <label > Enter your Age</label>     
-        <input type="number" id="Age" placeholder="Enter your Age">
+        <label for="" id="idlbl">Enter ID No</label>
+        <input id="idnumber" type="number" placeholder="Enter your ID No" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "number"
+        maxlength = "13"
+        minlength="13">
 
+        <button id="mybutton">Submit</button>
         
-        <button type="button" id="mybutton">Submit</button>
+        <h1 id="DisplayOnScreen">Yes</h1>        
+    </div>
 
-        <h1 id="DisplayOnScreen"></h1>
 
 
 
